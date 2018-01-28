@@ -33,6 +33,7 @@ class Vertex {
       this->id = id;
       this->visited = false;
       this->distance = default_distance;
+      this->prev = id;
     }
 
     T id;
@@ -71,6 +72,8 @@ class Alarm {
      this->dest = dest;
      this->time = time;
    }
+
+   bool
 
 };
 
