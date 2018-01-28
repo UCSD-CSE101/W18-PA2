@@ -73,8 +73,6 @@ class Alarm {
      this->time = time;
    }
 
-   bool
-
 };
 
 template <class T>
