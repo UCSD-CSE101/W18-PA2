@@ -73,13 +73,9 @@ class Alarm {
      this->time = time;
    }
 
-};
-
-template <class T>
-struct CompareAlarm {
-  bool operator()(const Alarm<T>& l, const Alarm<T>& r) const{
-    return l.time > r.time;
-  }
+   bool operator<(const Alarm<T>& l) const{
+     return this->time > l.time;
+   }
 };
 
 template <class T>
