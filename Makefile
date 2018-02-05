@@ -3,7 +3,7 @@
 # DO NOT MODIFY
 
 CC=g++
-FLAGS=-std=c++0x -I./
+FLAGS=-std=c++0x -g -I./
 
 TEST_Dijkstra = testsrc/TestDijkstra.cpp Dijkstra.cpp
 Dijkstra = Dijkstra.cpp Graph.hpp Dijkstra.hpp
